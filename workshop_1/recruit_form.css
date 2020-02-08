@@ -1,25 +1,27 @@
-body{
+body {
     background-color: #f7f7f7;
     font-family: 'Roboto', sans-serif;
 }
 
-.header-top{
+.header-top {
     font-size: 30px;
     text-align: center;
     padding: 20px;
 }
 
-.header-bottom-box{
+.header-bottom-box {
+    display: block;
+    margin: auto;
     background-color: blue;
     width: 450px;
     padding: 15px;
 }
 
-.header-bottom{
+.header-bottom {
     padding: 15px;
     text-align: center;
 }
 
-.img-personal{
+.img-personal {
     padding: 15px;
 }

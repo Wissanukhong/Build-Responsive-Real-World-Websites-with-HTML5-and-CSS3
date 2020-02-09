@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recruit Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="recruit_form.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="contaner">
+        <div class="row">
+            <div class="col">
+                <h3 class="header-top py-2">
+                    Application For Employment
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="contaner">
+        <div class="row">
+            <div class="col">
+                <div class="header-bottom-box">
+                    <h3 class="header-bottom">BuzzCode Company ltd.,co</h3>
+                </div>
+
+                <!-- <h3 class="text-center py-2"><u>ใบสมัครงาน</u></h3> -->
+                <p class="text-lead text-center py-3">ศูนย์ประชุมศูนย์ราชการฯ ห้องเลขที่ BM-1-075ชั้น 1 เลขที่ 120
+                    หมู่ที่ 3 ถ.แจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ. 0-2143-8081-83</p>
+                <p class="text-lead text-center">
+                    <a href="https://docs.google.com/presentation/d/1xIqI3d-EOd4DfiyJ-usk0n5Zvh_TN_7v-0gPKIrZb-8/edit#slide=id.g7d5e3bbf3d_0_125"
+                        target="_blank">docs.google.com/presentation</a>
+                </p>
+
+                <h2 class="display-6 text-center">กรอกใบสมัครงาน</h2>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- แก้ Bug การแสดงผลตรงนี้อีกรอบ -->
+    <div class="container">
+        <div class="row document">
+            <div class="col-8">
+                <form action="">
+                    ชื่อ-นามสกุล <input class="m-2" name="name-lastname" type="text"><br>
+                    เบอร์โทร <input class="m-2" type="tel" name="phone"><br>
+                    Email <input class="m-2" type="emial" name="emailadress" > <br>
+                    ตำแหน่งที่ต้องการ 
+                        <select class="m-2" name="positions">
+                            <option value="Default"></option>
+                            <option value="Font-end">Font-end</option>
+                            <option value="Back-end">Back-end</option>
+                            <option value="Fullstack">Fullstack</option>
+                        </select>
+                    <br>
+                    เงินเดือนที่ต้องการ <input name="saraly" type="text">
+                </form>
+            </div>
+
+            <div class="col-2 text-center">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="upload picture" width="120px" height="150px">
+            </div>
+
+            <div class="col-12 py-2 text-center">
+                <button type="button" class="btn btn-primary">ส่งใบสมัครงาน</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

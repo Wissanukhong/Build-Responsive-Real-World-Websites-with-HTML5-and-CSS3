@@ -48,3 +48,17 @@
   * `<span>`
   * `<a>`
   * `<img>`
+
+* Margin
+  * `margin-top: value;`
+  * `margin-right: value;`
+  * `margin-bottom: value;`
+  * `margin-left: value;`
+  * `margin: top right bottom left;`
+
+* Padding
+  * `padding-top: value;`
+  * `padding-right: value;`
+  * `padding-bottom: value;`
+  * `padding-left: value;`
+  * `padding: top right bottom left;`

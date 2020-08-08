@@ -4,9 +4,38 @@
     box-sizing: border-box;
 }
 
+/* auto clear float */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+.block-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+.other-post {
+    width: 25%;
+    float: left;
+}
+
+.auther-box {
+    padding-top: 20px;
+    border-top: 1px solid #757373;
+}
+
 
 h1,
 h2 {

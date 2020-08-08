@@ -62,3 +62,5 @@
   * `padding-bottom: value;`
   * `padding-left: value;`
   * `padding: top right bottom left;`
+
+> วิธีที่ง่ายที่สุดในการจัดตำแหน่งคือ การใส่สีให้กับ background แต่ละ div ก่อน แล้วค่อยลบออกทีหลัง  

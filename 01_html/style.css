@@ -26,6 +26,11 @@ body {
     padding-right: 30px;
 }
 
+.block-post img {
+    height: 329px;
+    width: auto;
+}
+
 .other-post {
     width: 25%;
     float: left;
@@ -60,4 +65,22 @@ h2 {
 
 .auther-text {
     font-size: 18px;
+}
+
+.other {
+    margin-bottom: 40px;
+}
+
+.auther-box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-text {
+    font-size: 22px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
 }

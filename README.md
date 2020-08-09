@@ -22,7 +22,7 @@
 
 * Hex ***instance*** `#532123`
 * rgb เป็นการผสมสีจากแม่สี
-* rgba เป็นการเลือกสีได้เหมือน rgb ที่สามารถเลือกความโปร่งแสงของสีได้ **instance** `rgba(201, 112, 44, 1)`
+* rgba เป็นการเลือกสีได้เหมือน rgb ที่สามารถเลือกความโปร่งแสงของสีได้ ***instance*** `rgba(201, 112, 44, 1)`
 
 #### Class and ID
 
@@ -43,24 +43,21 @@
   * `<header>`
   * `<footer>`
   * `<section>`
-
 * Inline Elements
   * `<span>`
   * `<a>`
   * `<img>`
-
 * Margin
   * `margin-top: value;`
   * `margin-right: value;`
   * `margin-bottom: value;`
   * `margin-left: value;`
   * `margin: top right bottom left;`
-
 * Padding
   * `padding-top: value;`
   * `padding-right: value;`
   * `padding-bottom: value;`
   * `padding-left: value;`
-  * `padding: top right bottom left;`
+  * `padding: top right bottom left;`  
 
 > วิธีที่ง่ายที่สุดในการจัดตำแหน่งคือ การใส่สีให้กับ background แต่ละ div ก่อน แล้วค่อยลบออกทีหลัง  

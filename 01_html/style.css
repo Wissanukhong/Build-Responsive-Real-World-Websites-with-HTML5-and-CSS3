@@ -24,11 +24,19 @@ body {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .block-post img {
     height: 329px;
     width: auto;
+}
+
+/* การจัดตำแหน่งแบบ adsolute */
+.date {
+    position: absolute;
+    top: 20px;
+    right: 30px;
 }
 
 .other-post {

@@ -58,6 +58,70 @@
   * `padding-right: value;`
   * `padding-bottom: value;`
   * `padding-left: value;`
-  * `padding: top right bottom left;`  
-
+  * `padding: top right bottom left;`
+  
 > วิธีที่ง่ายที่สุดในการจัดตำแหน่งคือ การใส่สีให้กับ background แต่ละ div ก่อน แล้วค่อยลบออกทีหลัง  
+
+#### Float
+
+Float คือการจัดตำแหน่งของ Box ที่เราต้องการว่าให้อยู่ในตำแหน่งหรือว่าทิศทางใด เช่นต้องการให้อยู่ทางด้าน ซ้าย หรือว่า ขวา  
+
+* `Float: left;` อยู่ทางซ้ายของหน้าจอ
+* `float: right;` อยู่ทางของขวาหน้าจอ
+
+ทุกครั้งที่เราใช้คำสั่ง float เราจะต้องใช้คำสั่ง clear: both; ใน Element ถัดไปด้วยเสมอเพื่อไม่ให้วัตถุนั้น Float ไปตามค่าก่อนหน้า  
+หรือว่า จะใช้อีกวีธีหนึ่งคือการสร้าง div ขึ้นมารองรับ  clear: both; โดยตรงได้เลย
+
+***Example***
+
+``` html
+    <div class="clearfix"></div>
+```
+
+``` css
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+```
+
+![float](assest/img/float.png)
+
+#### Relative and Absolute  
+
+***Relative***  
+การแสดงผลของ position: relative; จะแสดงผลต่อจาก ณ จุดที่มันอยู่ตรงนั้น “แบบตรงไปตรงมา” ซึ่ง position: relative; สามารถระบุค่าจุด x, y ให้มันได้  
+
+***Absolute***  
+การแสดงผลของ position: absolute; จะแสดงผลเป็น “อิสระ” คือจะให้มันไปอยู่ตรงไหนก็ได้ ซึ่งมันจะอยู่แค่ภายใต้ element ที่ครอบมันอีกทีเท่านั้น (ถ้ากำหนดแบบไม่มีอะไรมาครอบ ก็ให้คิดว่า body นั่นแหละที่ครอบมัน)  
+
+ขั้นตอนการจัดตำแหน่ง Absolute  
+
+1. หาตำแหน่ง parent ให้กับ Absolute ก่อน ตามตัวอย่างคือ `div class="blog-post"` นั้นเอง  
+2. จากนั้น ระบุค่า `position: relative;` ให้กับ `div class="blog-post"`
+3. จากนั้นก็กำหนด `position: absolute;` ให้กับ child element ของ `div class="blog-post"`
+***Example Code***  
+
+``` html
+  <div class="block-post">
+      <p class="date"> Monday 10 August 2020</p>
+  </div>
+```
+
+``` css
+.block-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+```
+
+![Relative And Absolute](assest/img/RelativeAndAbsolute.png)

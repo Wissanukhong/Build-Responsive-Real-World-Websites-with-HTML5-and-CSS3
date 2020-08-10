@@ -160,3 +160,17 @@ Inspect เอาไว้สำหรับตรวจเช็ค Element ท
 5. use good font  
 ![Font type](assest/img/fontType.png)
 
+### Use colors like a pro
+
+1. Use only color one base color
+2. Use tools if you want to use different color
+3. use color to draw attention
+4. never use back color for wweeb design
+5. choose colors wisely 
+
+### Image
+
+### Icon
+
+### Spacing and Layout
+

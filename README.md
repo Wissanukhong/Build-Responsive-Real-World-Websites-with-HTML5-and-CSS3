@@ -4,36 +4,39 @@
 
 * [HTML](#html)
 * [CSS](#css)
+* [Web design](#web-design)
 
-### HTML
+## HTML
 
 * Headding
 * paragraph
 * footer
+  
+---
 
-### CSS
+## CSS
 
 * How to use css  
   * inline style // เขียนลงไปที่ Element html ได้โดยตรง  
   * internal Style // เขียน CSS อยู่ตรงส่วนของ head  
   * Externail style // link css มาจากไฟล์ภายนอก  
 
-#### Color
+### Color
 
 * Hex ***instance*** `#532123`
 * rgb เป็นการผสมสีจากแม่สี
 * rgba เป็นการเลือกสีได้เหมือน rgb ที่สามารถเลือกความโปร่งแสงของสีได้ ***instance*** `rgba(201, 112, 44, 1)`
 
-#### Class and ID
+### Class and ID
 
 * class สามารถใช้งานได้หลาย Element  
 * Id สามารถใช้งานได้เพียง Element เดียวเท่านั้น
 
-#### CSS box model
+### CSS box model
 
 ![css-box-model](assest/img/cssBoxModel.png)
 
-#### CSS Layout - The display Property
+### CSS Layout - The display Property
 
 * Block-level Elements
   * `<div>`
@@ -62,7 +65,7 @@
   
 > วิธีที่ง่ายที่สุดในการจัดตำแหน่งคือ การใส่สีให้กับ background แต่ละ div ก่อน แล้วค่อยลบออกทีหลัง  
 
-#### Float
+### Float
 
 Float คือการจัดตำแหน่งของ Box ที่เราต้องการว่าให้อยู่ในตำแหน่งหรือว่าทิศทางใด เช่นต้องการให้อยู่ทางด้าน ซ้าย หรือว่า ขวา  
 
@@ -88,7 +91,7 @@ Float คือการจัดตำแหน่งของ Box ที่เ
 
 ![float](assest/img/float.png)
 
-#### Relative and Absolute  
+### Relative and Absolute  
 
 ***Relative***  
 การแสดงผลของ position: relative; จะแสดงผลต่อจาก ณ จุดที่มันอยู่ตรงนั้น “แบบตรงไปตรงมา” ซึ่ง position: relative; สามารถระบุค่าจุด x, y ให้มันได้  
@@ -126,6 +129,8 @@ Float คือการจัดตำแหน่งของ Box ที่เ
 
 ![Relative And Absolute](assest/img/RelativeAndAbsolute.png)
 
+---
+
 ### Google developer Tools
 
 Inspect เอาไว้สำหรับตรวจเช็ค Element ที่เราต้องการ เราสามารถตรวจเช็คได้ว่า Element นั้นมี Property หรือว่า Value อะไร เช่น  
@@ -136,3 +141,22 @@ Inspect เอาไว้สำหรับตรวจเช็ค Element ท
 * margin
 
 ![Inspect](assest/img/inspect.png)
+
+---
+
+## Web design
+
+### Typography
+
+1. Use a font-size between 15 and 25 pixels
+   1. if the font-size smaller than 14 pixels and biger than 30 pixels is not unnature
+  ![Bad font size](assest/img/Badfont.png)
+
+2. Use really big font-size for headline
+![Font-size](assest/img/fontSize1.png)
+3. Make the website easy to read by line spacing between 120 and 150%
+![Easy to read](assest/img/easyToRead.png)
+4. 45 to 90 Characters per lines  
+5. use good font  
+![Font type](assest/img/fontType.png)
+

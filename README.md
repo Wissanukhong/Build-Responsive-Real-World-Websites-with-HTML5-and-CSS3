@@ -125,3 +125,14 @@ Float คือการจัดตำแหน่งของ Box ที่เ
 ```
 
 ![Relative And Absolute](assest/img/RelativeAndAbsolute.png)
+
+### Google developer Tools
+
+Inspect เอาไว้สำหรับตรวจเช็ค Element ที่เราต้องการ เราสามารถตรวจเช็คได้ว่า Element นั้นมี Property หรือว่า Value อะไร เช่น  
+
+* header
+* navbar
+* padding
+* margin
+
+![Inspect](assest/img/inspect.png)

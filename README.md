@@ -11,15 +11,16 @@
 * Headding
 * paragraph
 * footer
+
   
 ---
 
 ## CSS
 
 * How to use css  
-  * inline style // เขียนลงไปที่ Element html ได้โดยตรง  
-  * internal Style // เขียน CSS อยู่ตรงส่วนของ head  
-  * Externail style // link css มาจากไฟล์ภายนอก  
+  + inline style // เขียนลงไปที่ Element html ได้โดยตรง  
+  + internal Style // เขียน CSS อยู่ตรงส่วนของ head  
+  + Externail style // link css มาจากไฟล์ภายนอก  
 
 ### Color
 
@@ -39,30 +40,31 @@
 ### CSS Layout - The display Property
 
 * Block-level Elements
-  * `<div>`
-  * `<h1> - <h6>`
-  * `<p>`
-  * `<form>`
-  * `<header>`
-  * `<footer>`
-  * `<section>`
+  + `<div>`
+  + `<h1> - <h6>`
+  + `<p>`
+  + `<form>`
+  + `<header>`
+  + `<footer>`
+  + `<section>`
 * Inline Elements
-  * `<span>`
-  * `<a>`
-  * `<img>`
+  + `<span>`
+  + `<a>`
+  + `<img>`
 * Margin
-  * `margin-top: value;`
-  * `margin-right: value;`
-  * `margin-bottom: value;`
-  * `margin-left: value;`
-  * `margin: top right bottom left;`
+  + `margin-top: value;`
+  + `margin-right: value;`
+  + `margin-bottom: value;`
+  + `margin-left: value;`
+  + `margin: top right bottom left;`
 * Padding
-  * `padding-top: value;`
-  * `padding-right: value;`
-  * `padding-bottom: value;`
-  * `padding-left: value;`
-  * `padding: top right bottom left;`
+  + `padding-top: value;`
+  + `padding-right: value;`
+  + `padding-bottom: value;`
+  + `padding-left: value;`
+  + `padding: top right bottom left;`
   
+
 > วิธีที่ง่ายที่สุดในการจัดตำแหน่งคือ การใส่สีให้กับ background แต่ละ div ก่อน แล้วค่อยลบออกทีหลัง  
 
 ### Float
@@ -149,15 +151,23 @@ Inspect เอาไว้สำหรับตรวจเช็ค Element ท
 ### Typography
 
 1. Use a font-size between 15 and 25 pixels
+
    1. if the font-size smaller than 14 pixels and biger than 30 pixels is not unnature
-  ![Bad font size](assest/img/Badfont.png)
+  
+
+![Bad font size](assest/img/Badfont.png)
 
 2. Use really big font-size for headline
+
 ![Font-size](assest/img/fontSize1.png)
+
 3. Make the website easy to read by line spacing between 120 and 150%
+
 ![Easy to read](assest/img/easyToRead.png)
+
 4. 45 to 90 Characters per lines  
 5. use good font  
+
 ![Font type](assest/img/fontType.png)
 
 ### Use colors like a pro
@@ -170,7 +180,39 @@ Inspect เอาไว้สำหรับตรวจเช็ค Element ท
 
 ### Image
 
+1. Put text directly on the image
+2. Overlay the image
+3. Put your text in a box
+4. Blur the image
+5. The floor fade
+
+
 ### Icon
 
+1. Use icons to list features/steps
+2. Use icons for actions and links
+3. Icons should be recognizable
+4. Label your icons
+5. Icons should not take a center stage
+6. Use icon fonts whenever possible
+
 ### Spacing and Layout
+
+1. Put whitespace between your elements
+2. Put whitespace between your groups of elements
+3. Put whitespace between you website's sections
+4. Define where you want your audience to look first
+5. Establish a flow that corresponds to your content's message
+6. Use whitespace to build that flow
+
+### Getting insprired
+
+1. Collect designs that you like
+2. Try to understand everything about them
+3. Why do they good look
+4. What do these sites have in common
+5. How were they build in HTML and CSS
+
+
+
 

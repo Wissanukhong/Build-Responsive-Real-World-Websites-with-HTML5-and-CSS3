@@ -24,11 +24,18 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    color: #ffffff;
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* แก้ไขให้ font เป็นตัวใหญ่ทั้งหมด */
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .hero-text-box {
@@ -37,4 +44,50 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* button */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #f67f47;
+    border: 1px solid #f67f47;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #f45d16;
+    color: #f45d16;;
+}
+
+/* Hover and active */
+.btn:hover,
+.btn:active {
+    background-color: #f45d16;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #f45d16;
+    border: 1px solid #f45d16;
+    color: #fff;
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #f45d16;
+    border: 1px solid #f45d16;
+    color: #fff;
 }

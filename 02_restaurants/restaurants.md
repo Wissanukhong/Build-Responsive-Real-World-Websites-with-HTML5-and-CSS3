@@ -85,6 +85,7 @@ header {
 1. สร้าง Element html ที่เราต้องการ ในที่นี่ใช้ Tag a เพื่อเป็นการคลิกเพื่อ Link ไปยังหน้าที่ต้องการ
 2. สร้าง class ให้กับ Element ที่เราต้องการตกแต่ง ในที่นี่ใช้ btn
 3. สร้าง child Element ที่เราต้องการตกแต่งให้ต่างจากที่มีอยู่ ในที่นี่ใช้ btn-full, btn-ghost
+4. กำหนดค่าต่างๆ ให้กับ Hover ว่าต้องการให้  Hover ทำงานอย่างไร 
 
 #### css 
 
@@ -99,5 +100,47 @@ header {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+```
+
+`class="btn-full"` and `class="btn-ghost"` จะเป็นการกำหนดค่าให้กับ btn ต่างๆ ว่ามีขนาดเท่าไหร่ สีอะไร 
+
+``` css
+.btn-full:link,
+.btn-full:visited {
+    background-color: #f67f47;
+    border: 1px solid #f67f47;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #f45d16;
+    color: #f45d16;
+}
+```
+
+`.btn:hover` เมื่อเราเอาเมาส์ไปคลิเราต้องการให้มีสีที่เปลี่ยนแปลง และมีการหน่วงระยะเวลาเพิ่มขึ้นเพื่อความสวยงาม
+
+``` css
+/*----------BUTTON HOVER----------*/
+.btn:hover,
+.btn:active {
+    background-color: #f45d16;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #f45d16;
+    border: 1px solid #f45d16;
+    color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #f45d16;
+    border: 1px solid #f45d16;
+    color: #fff;
 }
 ```

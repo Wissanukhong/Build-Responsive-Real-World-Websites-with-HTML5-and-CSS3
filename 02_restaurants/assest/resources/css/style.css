@@ -1,3 +1,4 @@
+/*----------Main setup----------*/
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ htlm {
     /* top and  bottom, left and right */
 }
 
+/*----------Header----------*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/02_restaurants/assest/resources/img/hero.jpg);
     background-size: cover;
@@ -46,7 +48,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-/* button */
+/*----------BUTTON----------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -68,10 +70,11 @@ h1 {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #f45d16;
-    color: #f45d16;;
+    color: #f45d16;
+    ;
 }
 
-/* Hover and active */
+/*----------BUTTON HOVER----------*/
 .btn:hover,
 .btn:active {
     background-color: #f45d16;

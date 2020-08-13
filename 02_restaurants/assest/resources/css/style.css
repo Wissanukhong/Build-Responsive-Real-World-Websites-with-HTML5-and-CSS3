@@ -1,8 +1,6 @@
-/*---------Materail-------*/
+/*---------Materials-------*/
 color Orang #f67f47
 /*-------------------------*/
-
-
 
 /*----------Main setup----------*/
 * {
@@ -74,6 +72,7 @@ h2:after {
     margin-top: 30px;
 }
 
+/* Header text center */
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -121,7 +120,6 @@ h2:after {
     color: #fff;
 }
 
-
 .btn-ghost:hover,
 .btn-ghost:active {
     background-color: #f45d16;
@@ -166,7 +164,7 @@ h2:after {
 
 /*----------Section----------*/
 section {
-    padding: 80px 0;
+    padding: 80px 0px;
 }
 
 /*----------Paragraph----------*/

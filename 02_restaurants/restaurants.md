@@ -152,6 +152,35 @@ header {
 
 [Ionicons](https://ionicons.com/v2/#cdn)
 
+1. Install icon or link like CDN from the website
+2. choose the icon on the website and get that class element
+
+   
+**Example code**
+
+``` html
+<div class="col span-1-of-4 box">
+    <i class="icon-big ion-ios-stopwatch-outline"></i>
+    <h3>Ready in 20 minutes</h3>
+    <p>
+        You're only twenty minutes away from your delicious and super healthy meals delivered right to your
+        home. We work with the best chefs in each town to ensure that you're 100% happy.
+    </p>
+</div>
+```
+
+**optimization with css**
+``` css 
+.icon-big {
+
+    font-size: 350%;
+    display: block;
+    color: #f67f47;
+
+}
+
+``` 
+
 #### How to create underline and center
 
 ``` css
@@ -177,6 +206,13 @@ h2:after {
 #### transition scale
 
 ``` css
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
 /* Transition scale */
 .meal-photo img {
     opacity: 0.7;

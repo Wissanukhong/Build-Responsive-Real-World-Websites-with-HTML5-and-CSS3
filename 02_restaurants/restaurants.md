@@ -13,6 +13,7 @@
       - [css](#css)
       - [Icon](#icon)
       - [How to create underline and center](#how-to-create-underline-and-center)
+      - [transition scale](#transition-scale)
 
 ### The 7 real-world steps to a fully functional website
 
@@ -146,11 +147,14 @@ header {
     color: #fff;
 }
 ```
+
 #### Icon
+
 [Ionicons](https://ionicons.com/v2/#cdn)
 
 #### How to create underline and center
-```css
+
+``` css
 h2 {
     font-size: 180%;
     word-spacing: 2px;
@@ -167,5 +171,23 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+```
+
+#### transition scale
+
+``` css
+/* Transition scale */
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 1s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
 ```

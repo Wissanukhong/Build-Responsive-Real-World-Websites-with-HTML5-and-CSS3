@@ -11,6 +11,8 @@
     - [How to make a button and hover effect](#how-to-make-a-button-and-hover-effect)
       - [html](#html)
       - [css](#css)
+      - [Icon](#icon)
+      - [How to create underline and center](#how-to-create-underline-and-center)
 
 ### The 7 real-world steps to a fully functional website
 
@@ -144,4 +146,26 @@ header {
     color: #fff;
 }
 ```
+#### Icon
 [Ionicons](https://ionicons.com/v2/#cdn)
+
+#### How to create underline and center
+```css
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Underline  */
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #f67f47;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+```

@@ -180,7 +180,7 @@ h2:after {
 /*Section*/
 /*-------------------------*/
 section {
-    padding: 80px 0px;
+    padding: 40px 0px;
 }
 
 /*-------------------------*/
@@ -223,7 +223,7 @@ section {
 
 .meals-showcase {
     list-style: none;
-    width: 100%;
+    width: 95%;
 }
 
 .meals-showcase li {
@@ -262,10 +262,28 @@ section {
 }
 
 .steps-box:first-child {
-    float: left;
+    text-align: right;
+    padding-right: 3%;
 }
 
 .steps-box:last-child {
-    float: right;
-    margin-left: 15px;
+    padding-left: 3%;
+}
+
+.app-screen {
+    width: 50%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div{
+    color: #f67f47;
+    border: 2px solid #f67f47;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
 }

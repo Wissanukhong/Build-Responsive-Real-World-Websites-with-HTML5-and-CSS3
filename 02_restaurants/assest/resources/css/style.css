@@ -298,8 +298,9 @@ section {
 /*-------------------------*/
 /*Button App*/
 /*-------------------------*/
-.btn-app img {
+.btn-app {
     height: 50px;
     width: auto;
     margin-right: 10px;
+    text-decoration: none;
 }

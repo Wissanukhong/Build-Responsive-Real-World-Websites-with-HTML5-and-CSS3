@@ -1,21 +1,23 @@
-# Restaurants Project
+# Restaurants Project 📃🏆
 
-## Table of contents
+## Table of contents 📂
 
-- [Restaurants Project](#restaurants-project)
-  - [Table of contents](#table-of-contents)
-    - [The 7 real-world steps to a fully functional website](#the-7-real-world-steps-to-a-fully-functional-website)
-    - [setup project](#setup-project)
-    - [What we will learn in this project](#what-we-will-learn-in-this-project)
-    - [Header background](#header-background)
-    - [How to make a button and hover effect](#how-to-make-a-button-and-hover-effect)
+- [Restaurants Project 📃🏆](#restaurants-project-)
+  - [Table of contents 📂](#table-of-contents-)
+    - [The 7 real-world steps to a fully functional website 🔥](#the-7-real-world-steps-to-a-fully-functional-website-)
+    - [✏️ setup project](#️-setup-project)
+    - [✏️ What we will learn in this project](#️-what-we-will-learn-in-this-project)
+    - [✏️ Header background](#️-header-background)
+    - [✏️ How to make a button and hover effect](#️-how-to-make-a-button-and-hover-effect)
       - [html](#html)
       - [css](#css)
       - [Icon](#icon)
       - [How to create underline and center](#how-to-create-underline-and-center)
       - [transition scale](#transition-scale)
+    - [✏️ How to make section-features](#️-how-to-make-section-features)
+      - [css](#css-1)
 
-### The 7 real-world steps to a fully functional website
+### The 7 real-world steps to a fully functional website 🔥
 
 1. Define your project
 2. Plan out everything
@@ -25,11 +27,11 @@
 6. Launch the masterpiece
 7. Site maintenance
 
-### setup project
+### ✏️ setup project
 
 ![sepupProjcet](assest/resources/img/setupProject.png)
 
-### What we will learn in this project
+### ✏️ What we will learn in this project
 
 * html, header, nave, ul, li
 * put text on an image: make image darker
@@ -37,9 +39,9 @@
 * How to male a vertically a norizontally centered box
 * How to design buttons
 
-### Header background
+### ✏️ Header background
 
-**How to put iamge background**
+**How to put image background**
 
 ``` css
 header {
@@ -51,6 +53,9 @@ header {
 }
 ```
 
+**Note**
+This code for create background shadow with linear-gradient 
+ `leniear-gradient(rgba(value 1),rgba(value 2))`
 **How to set text center**
 
 ``` css
@@ -67,7 +72,7 @@ header {
 
 ![center](assest/resources/img/center.png)
 
-### How to make a button and hover effect
+### ✏️ How to make a button and hover effect
 
 **Note :** 
 
@@ -170,6 +175,7 @@ header {
 ```
 
 **optimization with css**
+
 ``` css 
 .icon-big {
 
@@ -225,5 +231,80 @@ h2:after {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+}
+```
+
+### ✏️ How to make section-features
+
+```html 
+<section class="section-features">
+
+        <div class="row">
+            <h2>Get good fast &mdash; not fast food</h2>
+            <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always
+                busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <i class="icon-big ion-ios-infinite"></i>
+                <h3>Up to 365 days/year</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
+                    You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon-big ion-ios-stopwatch-outline"></i>
+                <h3>Ready in 20 minutes</h3>
+                <p>
+                    You're only twenty minutes away from your delicious and super healthy meals delivered right to your
+                    home. We work with the best chefs in each town to ensure that you're 100% happy.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon-big ion-ios-nutrition-outline"></i>
+                <h3>100% organic</h3>
+                <p>
+                    All our vegetables are fresh, organic and local. Animals are raised without added hormones or
+                    antibiotics. Good for your health, the environment, and it also tastes better!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="icon-big ion-ios-cart-outline"></i>
+                <h3>Order anything</h3>
+                <p>
+                    We don't limit your creativity, which means you can order whatever you feel like. You can also
+                    choose from our menu containing over 100 delicious meals. It's up to you!
+                </p>
+            </div>
+        </div>
+    </section>
+
+``` 
+
+#### css
+
+```css
+/*-------------------------*/
+/*Section Feature*/
+/*-------------------------*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 0;
+}
+
+.box p {
+    font-size: 100%;
+    line-height: 145%;
+}
+
+.section-features .long-copy {
+    margin-bottom: 30px;
 }
 ```

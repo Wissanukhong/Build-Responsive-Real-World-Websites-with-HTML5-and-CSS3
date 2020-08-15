@@ -16,6 +16,7 @@
       - [transition scale](#transition-scale)
     - [✏️ How to make section-features](#️-how-to-make-section-features)
       - [css](#css-1)
+    - [✏️ Bulding the cities](#️-bulding-the-cities)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -308,3 +309,8 @@ h2:after {
     margin-bottom: 30px;
 }
 ```
+> ⚠️ Warring : This is very important!  
+>   
+> Whenever we use float: left or right. We must use clear: both; immediately in the next element.  
+
+### ✏️ Bulding the cities

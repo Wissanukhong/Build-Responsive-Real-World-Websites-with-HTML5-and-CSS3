@@ -26,6 +26,15 @@ htlm {
     /* top and  bottom, left and right */
 }
 
+.clearfix {zoom:0.2}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*-------------------------*/
 /*Header*/
 /*-------------------------*/
@@ -181,6 +190,7 @@ h2:after {
 /*-------------------------*/
 section {
     padding: 40px 0px;
+    clear: both;
 }
 
 /*-------------------------*/
@@ -257,6 +267,9 @@ section {
 /*-------------------------*/
 /*How it work section*/
 /*-------------------------*/
+.section-steps {
+    background-color: #f4f4f4;
+}
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;

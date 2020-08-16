@@ -36,6 +36,26 @@ htlm {
 }
 
 /*-------------------------*/
+/*Links*/
+/*-------------------------*/
+a:link,
+a:visited {
+    color: #f67f47;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f67f47;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent
+}
+
+
+
+/*-------------------------*/
 /*Header*/
 /*-------------------------*/
 header {
@@ -224,6 +244,21 @@ section {
     color: #f67f47;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #f67f47;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* secerts to align text and icons */
+    line-height: 120%;
+    vertical-align: middle; 
+    margin-top: -4px;
+    
+}
+
 /*-------------------------*/
 /*MEAL Section*/
 /*-------------------------*/
@@ -317,3 +352,22 @@ section {
     margin-right: 10px;
     text-decoration: none;
 }
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+/*-------------------------*/
+/*Section cities*/
+/*-------------------------*/
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+

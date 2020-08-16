@@ -309,8 +309,121 @@ h2:after {
     margin-bottom: 30px;
 }
 ```
+
 > ⚠️ Warring : This is very important!  
->   
+>  
 > Whenever we use float: left or right. We must use clear: both; immediately in the next element.  
 
 ### ✏️ Bulding the cities
+
+* Create section class cities for content all the feature
+* create class row for defind the position in center
+* col span-1-of-4 for defind 4 pictures in 1 colum
+
+``` html
+<section class="cities">
+    <div class="row">
+        <h2>We're currently in these cities</h2>
+    </div>
+
+    <div class="row">
+        <!-- 1 -->
+        <div class="col span-1-of-4 box">
+            <img src="/02_restaurants/assest/resources/img/lisbon-3.jpg" alt="Lisbon">
+            <h3>Lisbon</h3>
+            <div class="city-feature">
+                <i class="ion-android-person"></i>
+                1600+ happy eaters
+            </div>
+            <div class="city-feature">
+                <i class="ion-android-star"></i>
+                60+ top chefs
+            </div>
+            <div class="city-feature">
+                <i class="ion-social-twitter"></i>
+                @omnifood_lx
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="col span-1-of-4 box">
+            <img src="/02_restaurants/assest/resources/img/san-francisco.jpg" alt="San Francisco">
+            <h3>San Francisco</h3>
+            <div class="city-feature">
+                <i class="ion-android-person"></i>
+                3700+ happy eaters
+            </div>
+            <div class="city-feature">
+                <i class="ion-android-star"></i>
+                160+ top chefs
+            </div>
+            <div class="city-feature">
+                <i class="ion-social-twitter"></i>
+                @omnifood_sf
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="col span-1-of-4 box">
+            <img src="/02_restaurants/assest/resources/img/berlin.jpg" alt="Berlin">
+            <h3>Berlin</h3>
+            <div class="city-feature">
+                <i class="ion-android-person"></i>
+                2300+ happy eaters
+            </div>
+            <div class="city-feature">
+                <i class="ion-android-star"></i>
+                110+ top chefs
+            </div>
+            <div class="city-feature">
+                <i class="ion-social-twitter"></i>
+                @omnifood_berlin
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="col span-1-of-4 box">
+            <img src="/02_restaurants/assest/resources/img/london.jpg" alt="London">
+            <h3>London</h3>
+            <div class="city-feature">
+                <i class="ion-android-person"></i>
+                1200+ happy eaters
+            </div>
+            <div class="city-feature">
+                <i class="ion-android-star"></i>
+                50+ top chefs
+            </div>
+            <div class="city-feature">
+                <i class="ion-social-twitter"></i>
+                @omnifood_london
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+use this code for defind size of picturs
+
+``` css
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+```
+
+icon  
+
+``` css
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #f67f47;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* secerts to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+
+}
+```

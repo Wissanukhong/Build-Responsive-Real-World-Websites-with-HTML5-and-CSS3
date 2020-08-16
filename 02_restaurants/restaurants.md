@@ -424,6 +424,5 @@ icon
     line-height: 120%;
     vertical-align: middle;
     margin-top: -4px;
-
 }
 ```

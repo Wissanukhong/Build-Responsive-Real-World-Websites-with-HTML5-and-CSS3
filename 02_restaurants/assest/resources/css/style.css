@@ -38,7 +38,7 @@ htlm {
 /*-------------------------*/
 /*Links*/
 /*-------------------------*/
-a:link,
+/* a:link,
 a:visited {
     color: #f67f47;
     text-decoration: none;
@@ -51,7 +51,7 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent
-}
+} */
 
 
 
@@ -367,7 +367,21 @@ section {
     margin-bottom: 15px;
 }
 
-.city-feature{
+.city-feature {
     margin-bottom: 5px;
 }
 
+.city-feature a:link,
+.city-feature a:visited {
+    color: #f67f47;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f67f47;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    color: #555;
+    border-bottom: 1px solid transparent
+}

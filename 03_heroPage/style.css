@@ -11,30 +11,14 @@ header {
     height: 100vh;
 }
 
-.container {
-    text-align: center;
-    display: inline;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.float-left{
-    width: 50%;
-    float: left;
-    background-color: red;
-    border: 1px solid green
-}
-
-.float-right {
-    width: 50%;
-    float: right;
-    background-color: red;
-    border: 1px solid green
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .img-wellcome-page {
-    
     border-radius: 50%;
     height: 250px;
     width: 250px;
@@ -44,4 +28,15 @@ h1 {
     color: #fff;
     font-size: 50px;
     text-transform: uppercase;
+    margin-left: 30px;
+}
+
+h1:after{
+    display: block;
+    height: 2px;
+    background-color: rgb(143, 14, 14);
+    content: '';
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
 }

@@ -63,6 +63,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 h1,
@@ -371,6 +372,7 @@ section {
     margin-bottom: 5px;
 }
 
+/* Link */
 .city-feature a:link,
 .city-feature a:visited {
     color: #f67f47;
@@ -380,8 +382,52 @@ section {
     transition: border-bottom 0.2s, color 0.2s;
 }
 
+/* Hover */
 .city-feature a:hover,
 .city-feature a:active {
     color: #555;
     border-bottom: 1px solid transparent
+}
+
+/*-------------------------*/
+/*Section testimonials*/
+/*-------------------------*/
+.section-testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/02_restaurants/assest/resources/img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; 
+    /* The background is will fixed on the page when user scroll down or up. That is an animation website */
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    font-size: 110%;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    position: absolute;
+    content: "\201c";
+    font-size: 400%;
+    display: block;
+    top: 5px;
+    left: -30px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50px;
+    margin-right: 10px;    
+    vertical-align: middle;
 }

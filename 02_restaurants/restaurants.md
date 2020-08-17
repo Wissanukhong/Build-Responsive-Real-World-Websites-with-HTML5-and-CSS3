@@ -17,6 +17,7 @@
     - [✏️ How to make section-features](#️-how-to-make-section-features)
       - [css](#css-1)
     - [✏️ Bulding the cities](#️-bulding-the-cities)
+    - [Customer Testimonials](#customer-testimonials)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -50,7 +51,8 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    color: #ffffff;
+    background-attachment: fixed;
+    /* The background is will fixed on the page when user scroll down or up. That is an animation website */
 }
 ```
 
@@ -424,5 +426,88 @@ icon
     line-height: 120%;
     vertical-align: middle;
     margin-top: -4px;
+}
+```
+
+link:hover
+
+``` css
+/* Link */
+.city-feature a:link,
+.city-feature a:visited {
+    color: #f67f47;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f67f47;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+/* Hover */
+.city-feature a:hover,
+.city-feature a:active {
+    color: #555;
+    border-bottom: 1px solid transparent
+}
+```
+
+### Customer Testimonials 
+
+``` html
+<blockquote>
+    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so
+    Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+    <cite>Alberto Duncan</cite>
+</blockquote>
+```
+
+`<cite>Alberto Duncan</cite>` This is auther from the blockquote
+
+Create background for there eliment  
+> `background-attachment: fixed;` The background is will fixed on the page when user scroll down or up. That is an animation website 
+> It is very beautiful when we use this one!
+
+``` css
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/02_restaurants/assest/resources/img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    /* The background is will fixed on the page when user scroll down or up. That is an animation website */
+}
+```
+Blockquote
+
+``` css
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    font-size: 110%;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    position: absolute;
+    content: "\201c";
+    font-size: 400%;
+    display: block;
+    top: 5px;
+    left: -30px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50px;
+    margin-right: 10px;
+    vertical-align: middle; 
+    /* How to center when I use display block */
 }
 ```

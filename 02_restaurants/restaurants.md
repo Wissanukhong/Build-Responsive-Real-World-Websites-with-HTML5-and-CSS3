@@ -19,6 +19,7 @@
     - [✏️ Bulding the cities](#️-bulding-the-cities)
     - [✏️ Customer Testimonials](#️-customer-testimonials)
     - [✏️section plan price](#️section-plan-price)
+    - [section form](#section-form)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -543,7 +544,163 @@ cite img {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
 </section>
 ```
+
+``` css
+.section-plans {
+    background: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #d1cccc;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(241, 241, 241)
+}
+
+.plan-box div:first-child {
+    background-color: #f45d16;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+```
+
+### section form 
+
+``` html
+<section class="section-form">
+    <div class="row">
+        <h2>We're happy to hear from you</h2>
+    </div>
+    <div class="row">
+        <form class="contact-form" method="post" action="#">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Your name " required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Your email " required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="find-us">How did you find us?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <select name="find-us" id="find-us">
+                        <option value="friends" selected>Friends</option>
+                        <option value="ad">Search engine</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="#">Newsletter?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="checkbox" name="news" id="news" checked> Yes, Please
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Drop us a line</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="message" placeholder="Your message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="#">&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" value="Send it!">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+```
+
+``` css
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
+```
+![section-form](assest/resources/img/section-form.png)
+
+We can use same style by the old code. 
+
+![lecacy-code](assest/resources/img/legacy-code.png)

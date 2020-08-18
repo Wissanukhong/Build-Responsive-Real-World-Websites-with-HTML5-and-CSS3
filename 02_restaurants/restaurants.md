@@ -17,7 +17,8 @@
     - [✏️ How to make section-features](#️-how-to-make-section-features)
       - [css](#css-1)
     - [✏️ Bulding the cities](#️-bulding-the-cities)
-    - [Customer Testimonials](#customer-testimonials)
+    - [✏️ Customer Testimonials](#️-customer-testimonials)
+    - [✏️section plan price](#️section-plan-price)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -450,7 +451,7 @@ link:hover
 }
 ```
 
-### Customer Testimonials 
+### ✏️ Customer Testimonials 
 
 ``` html
 <blockquote>
@@ -463,6 +464,7 @@ link:hover
 `<cite>Alberto Duncan</cite>` This is auther from the blockquote
 
 Create background for there eliment  
+
 > `background-attachment: fixed;` The background is will fixed on the page when user scroll down or up. That is an animation website 
 > It is very beautiful when we use this one!
 
@@ -475,6 +477,7 @@ Create background for there eliment
     /* The background is will fixed on the page when user scroll down or up. That is an animation website */
 }
 ```
+
 Blockquote
 
 ``` css
@@ -507,7 +510,40 @@ cite img {
     height: 45px;
     border-radius: 50px;
     margin-right: 10px;
-    vertical-align: middle; 
+    vertical-align: middle;
     /* How to center when I use display block */
 }
+```
+
+### ✏️section plan price
+
+``` html
+<section class="section-plans">
+    <div class="row">
+        <h2>Start eating healthy today</h2>
+    </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+            <div class="plan-box">
+                <div>
+                    <h3>Premium</h3>
+                    <p class="plan-price">$399 <span>/ month</span></p>
+                    <p class="plan-price-meal">That's only 13.30$ per meal</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                        <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-full">Sign Up now</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
 ```

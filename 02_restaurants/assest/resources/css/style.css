@@ -1,6 +1,9 @@
 /*---------Materials-------*/
+/*
 color Orang #f67f47
-/*-------------------------*/
+background #f4f4f4
+
+*/
 
 /*-------------------------*/
 /*Main setup*/
@@ -430,4 +433,59 @@ cite img {
     border-radius: 50px;
     margin-right: 10px;    
     vertical-align: middle;
+}
+
+/*-------------------------*/
+/*Section plan*/
+/*-------------------------*/
+.section-plans {
+    background: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;  
+    box-shadow: 0 2px 2px #d1cccc;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(241, 241, 241)
+}
+.plan-box div:first-child{
+    background-color: #f45d16;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom:  10px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
 }

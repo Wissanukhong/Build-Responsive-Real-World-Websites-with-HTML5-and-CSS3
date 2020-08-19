@@ -2,7 +2,9 @@
 /*
 color Orang #f67f47
 background #f4f4f4
-border-color #ccc
+color #ccc
+color #888
+color #ddd
 
 */
 
@@ -524,3 +526,55 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
+
+/*-------------------------*/
+/*Footer*/
+/*-------------------------*/
+footer {
+    background-color: #333;
+    padding: 60px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.socail-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.socail-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.socail-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.socail-links li a:link,
+.socail-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: transform color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+footer p {
+    clear: both;
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}

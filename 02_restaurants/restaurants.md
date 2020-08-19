@@ -2,8 +2,8 @@
 
 ## Table of contents 📂
 
-- [Restaurants Project 📃🏆](#restaurants-project-)
-  - [Table of contents 📂](#table-of-contents-)
+* [Restaurants Project 📃🏆](#restaurants-project-)
+  + [Table of contents 📂](#table-of-contents-)
     - [The 7 real-world steps to a fully functional website 🔥](#the-7-real-world-steps-to-a-fully-functional-website-)
     - [✏️ setup project](#️-setup-project)
     - [✏️ What we will learn in this project](#️-what-we-will-learn-in-this-project)
@@ -20,6 +20,7 @@
     - [✏️ Customer Testimonials](#️-customer-testimonials)
     - [✏️section plan price](#️section-plan-price)
     - [section form](#section-form)
+    - [Footer](#footer)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -699,8 +700,120 @@ input[type=checkbox] {
     outline: none;
 }
 ```
+
 ![section-form](assest/resources/img/section-form.png)
 
 We can use same style by the old code. 
 
 ![lecacy-code](assest/resources/img/legacy-code.png)
+
+### Footer 
+
+``` html
+<footer>
+    <div class="row">
+        <div class="col span-1-of-2">
+            <ul class="footer-nav">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">iOS app</a></li>
+                <li><a href="#">Android app</a></li>
+            </ul>
+        </div>
+        <div class="col span-1-of-2">
+            <ul class="socail-links">
+                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <p>
+            Copyright &copy; 2020 by the Restuarant. All rights reserved
+        </p>
+    </div>
+</footer>
+```
+
+``` css
+footer {
+    background-color: #333;
+    padding: 20px;
+    font-size: 120%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.socail-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.socail-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.socail-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.socail-links li a:link,
+.socail-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: transform color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5999;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #e4405f;
+}
+
+footer p {
+    clear: both;
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+}
+```

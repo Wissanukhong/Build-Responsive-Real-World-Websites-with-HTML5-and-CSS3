@@ -276,7 +276,8 @@ section {
 /*MEAL Section*/
 /*-------------------------*/
 .section-meals {
-    padding-left: 0;
+    padding:0px;
+    margin-bottom: 20px;
 }
 
 .meals-showcase {

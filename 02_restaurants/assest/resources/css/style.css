@@ -17,13 +17,15 @@ color #ddd
     box-sizing: border-box;
 }
 
-htlm {
+htlm,
+body {
     background-color: #ffffff;
     color: #555555;
     font-family: 'Kanit', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .row {

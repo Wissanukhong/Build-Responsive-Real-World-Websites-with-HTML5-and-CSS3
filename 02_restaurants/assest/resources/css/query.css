@@ -102,7 +102,7 @@
 
     .col {
         width: 100%;
-        margin: 0 0 4% 1.6%;
+        margin: 0 0 4% 0%;
     }
 
     .main-nav {
@@ -139,13 +139,36 @@
     }
 
     .works-step {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .works-step:last-child {
         margin-bottom: 20px;
     }
+
+    .section-meals {
+        margin-bottom: 10px;
+    }
 }
 
 /* small phone from 0 to 480px */
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    blockquote {
+        padding: 0;
+        font-size: 110%;
+        margin-top: 20px;
+    }
+
+    blockquote:before {
+        top: -8px;
+        left: 1px;
+    }
+}

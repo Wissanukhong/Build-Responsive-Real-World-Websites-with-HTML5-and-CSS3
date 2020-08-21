@@ -2,8 +2,8 @@
 
 ## Table of contents 📂
 
-* [Restaurants Project 📃🏆](#restaurants-project-)
-  + [Table of contents 📂](#table-of-contents-)
+- [Restaurants Project 📃🏆](#restaurants-project-)
+  - [Table of contents 📂](#table-of-contents-)
     - [The 7 real-world steps to a fully functional website 🔥](#the-7-real-world-steps-to-a-fully-functional-website-)
     - [✏️ setup project](#️-setup-project)
     - [✏️ What we will learn in this project](#️-what-we-will-learn-in-this-project)
@@ -19,8 +19,11 @@
     - [✏️ Bulding the cities](#️-bulding-the-cities)
     - [✏️ Customer Testimonials](#️-customer-testimonials)
     - [✏️section plan price](#️section-plan-price)
-    - [section form](#section-form)
-    - [Footer](#footer)
+    - [✏️ section form](#️-section-form)
+    - [✏️ Footer](#️-footer)
+    - [✏️ Responsive Website](#️-responsive-website)
+      - [4 displays for four device](#4-displays-for-four-device)
+      - [How to choose display in google chrome developer](#how-to-choose-display-in-google-chrome-developer)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -605,7 +608,7 @@ cite img {
 }
 ```
 
-### section form 
+### ✏️ section form 
 
 ``` html
 <section class="section-form">
@@ -707,7 +710,7 @@ We can use same style by the old code.
 
 ![lecacy-code](assest/resources/img/legacy-code.png)
 
-### Footer 
+### ✏️ Footer 
 
 ``` html
 <footer>
@@ -817,3 +820,23 @@ footer p {
     margin-top: 30px;
 }
 ```
+
+### ✏️ Responsive Website
+
+#### 4 displays for four device
+
+Media query size  
+
+1. 0-480px for generally phone
+2. 480-768px for Tablet and ipad
+3. 769-1024px for generally notebook
+4. 1025-1200px for generally desktop 
+
+![display](/02_restaurants/assest/resources/img/responsive-display.png)
+
+#### How to choose display in google chrome developer
+
+1. Click Inspec Element or press F12
+2. press responsive button
+
+![responsive](/02_restaurants/assest/resources/img/responsive.png)

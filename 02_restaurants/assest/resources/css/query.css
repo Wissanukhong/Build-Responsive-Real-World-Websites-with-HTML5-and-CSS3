@@ -81,7 +81,7 @@
     }
 
     footer {
-        font-size: 75%;
+        font-size: 70%;
     }
 }
 
@@ -149,6 +149,15 @@
     .section-meals {
         margin-bottom: 10px;
     }
+    
+    .socail-links {
+        float: left;
+    }
+
+    footer {
+        font-size: 60%;
+    }
+
 }
 
 /* small phone from 0 to 480px */
@@ -170,5 +179,13 @@
     blockquote:before {
         top: -8px;
         left: 1px;
+    }
+
+    .footer p {
+        padding: 10px;
+    }
+
+    .socail-links {
+        float: left;
     }
 }

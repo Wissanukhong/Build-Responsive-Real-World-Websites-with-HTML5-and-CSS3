@@ -101,7 +101,8 @@
     }
 
     .col {
-        width: 100%
+        width: 100%;
+        margin: 0 0 4% 1.6%;
     }
 
     .main-nav {
@@ -109,7 +110,7 @@
     }
 
     .h1 {
-        font-size: 180%;
+        font-size: 150%;
     }
 
     .h2 {
@@ -121,19 +122,23 @@
         margin-left: 0%;
     }
 
+    .steps-box:first-child {
+        text-align: center;
+    }
+
     .works-step div {
         height: 40px;
         width: 40px;
         margin-right: 15px;
         padding: 4px;
+        font-size: 160%;
     }
 
-    .works-steps p {
-        padding: 0px;
-        font-size: 180%;
+    .works-step p {
+        padding-top: 0px;
     }
 
-    .works-steps {
+    .works-step {
         margin-bottom: 20px;
     }
 

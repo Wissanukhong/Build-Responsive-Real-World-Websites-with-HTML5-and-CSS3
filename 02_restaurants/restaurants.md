@@ -24,6 +24,7 @@
     - [✏️ Responsive Website](#️-responsive-website)
       - [4 displays for four device](#4-displays-for-four-device)
       - [How to choose display in google chrome developer](#how-to-choose-display-in-google-chrome-developer)
+    - [Note for responsive website](#note-for-responsive-website)
 
 ### The 7 real-world steps to a fully functional website 🔥
 
@@ -840,3 +841,9 @@ Media query size
 2. press responsive button
 
 ![responsive](/02_restaurants/assest/resources/img/responsive.png)
+
+### Note for responsive website
+
+1. Most braoser for website
+2. css browser prefixes
+3. 

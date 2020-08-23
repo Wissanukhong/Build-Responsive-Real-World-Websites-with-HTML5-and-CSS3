@@ -181,7 +181,11 @@
         left: 1px;
     }
 
-    .footer p {
+    footer {
+        font-size: 70%;
+    }
+
+    footer p {
         padding: 10px;
     }
 

@@ -23,8 +23,8 @@ What I do in this workshop. Please see the below. 👇
     </header>
 ```
 
-1. Create element hearder to content the main value and background
-2. Create `<div class="flex-container">` to difind container
+1. Create element header to content the main value and background
+2. Create `<div class="flex-container">` to defind container
 3. Create element img to put the picture
 4. Create element `<h1>Hello wellcome back</h1>` to difind the text into it.  
 

@@ -451,11 +451,11 @@ section {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url('https://github.com/Wissanukhong/Build-Responsive-Real-World-Websites-with-HTML5-and-CSS3/blob/master/assest/resources/img/back-customers.jpg');
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://github.com/Wissanukhong/Build-Responsive-Real-World-Websites-with-HTML5-and-CSS3/blob/master/assest/resources/img/back-customers.jpg');
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://github.com/Wissanukhong/Build-Responsive-Real-World-Websites-with-HTML5-and-CSS3/blob/master/assest/resources/img/back-customers.jpg');
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
   color: #fff;
   background-attachment: fixed;

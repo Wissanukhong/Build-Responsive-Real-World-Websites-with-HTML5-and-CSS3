@@ -1,3 +1,5 @@
+![demo_picture](mySource\img\screencapture-127-0-0-1-5501-02-restaurants-index-html-2021-05-13-22_56_01.png)
+
 # Build Responsive Real World Websites with HTML5 and CSS3
 
 ## Table of contents
